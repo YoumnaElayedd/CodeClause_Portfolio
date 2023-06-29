@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!----css Files--->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--style switcher-->
+    <link rel="stylesheet" href="style-switcher.css" />
+  </head>
+  <body>
+    <!----main containeer start---->
+    <div class="main-container">
+      <!----Aside start--->
+      <div class="aside">
+        <div class="logo">
+          <a href="#">Portfo<span>lio</span></a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="service.html"><i class="fa fa-list"></i> Service</a>
+          </li>
+          <li>
+            <a href="contact.html" class="active"
+              ><i class="fa fa-comments"></i>contact
+            </a>
+          </li>
+          <li>
+            <button class="day-night-Moon"><i class="fa fa-moon"></i></button>
+            <button class="day-night-Sun"><i class="fa fa-sun"></i></button>
+          </li>
+        </ul>
+      </div>
+      <!----Aside end--->
+      <!----main content start-->
+      <div class="main-content">
+        <!---contact section start-->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title pdd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title pdd-15">HAVE YOU ANY QUESTIONS ?</h3>
+            <h4 class="contact-sub-title pdd-15">I am at your Services</h4>
+            <div class="row">
+              <div class="contact-info-item pdd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Me on</h4>
+                <p>01279368051</p>
+              </div>
+              <div class="contact-info-item pdd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>shehatyoumna@gmai.com</p>
+              </div>
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+              </div>
+              <!--contact info end-->
+            </div>
+            <h3 class="contact-title pdd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title pdd-15">
+              I am Very Responsive To Messeges
+            </h4>
+            <!--contact form-->
+            <div class="row">
+              <div class="contact-form pdd-15">
+                <div class="row">
+                  <div class="form-item col-6 pdd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 pdd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pdd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pdd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id=""
+                        placeholder="Messege"
+                      >
+                      </textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 pdd-15">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Send Messege</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---contact section End-->
+      </div>
+      <!-----main content end---->
+    </div>
+    <!----main end---->
+    <!--style switcher start-->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span
+          class="color"
+          data-color="rgb(223, 108, 108)"
+          style="background: rgb(223, 108, 108)"
+        ></span>
+        <span
+          class="color"
+          data-color=" #fa5b0f"
+          style="background: #fa5b0f"
+        ></span>
+        <span
+          class="color"
+          data-color=" #37b182"
+          style="background: #37b182"
+        ></span>
+        <span
+          class="color"
+          data-color=" #1854b4"
+          style="background: #1854b4"
+        ></span>
+        <span
+          class="color"
+          data-color=" #f021b2"
+          style="background: #f021b2"
+        ></span>
+      </div>
+    </div>
+    <!--style switcher end-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      document.querySelector(".style-switcher-toggler").onclick = () => {
+        document.querySelector(".style-switcher").classList.toggle("active");
+      };
+      let colors = document.querySelectorAll(".color");
+      colors.forEach((color) => {
+        color.addEventListener("click", () => {
+          let datacolor = color.getAttribute("data-color");
+          document
+            .querySelector(":root")
+            .style.setProperty("--skin-color", datacolor);
+        });
+      });
+
+      let NightIcon = document.querySelector(".day-night-Moon");
+      let LightIcon = document.querySelector(".day-night-Sun");
+      NightIcon.addEventListener("click", () => {
+        NightIcon.style.display = "none";
+        LightIcon.style.display = "inline-block";
+        document.querySelector("body").classList.add("dark-mood");
+      });
+      LightIcon.addEventListener("click", () => {
+        NightIcon.style.display = "inline-block";
+        LightIcon.style.display = "none";
+        document.querySelector("body").classList.remove("dark-mood");
+      });
+      const navTogglerBtn = document.querySelector(".nav-toggler"),
+        aside = document.querySelector(".aside");
+      allSection = document.querySelectorAll(".section");
+      totalSection = allSection.length;
+      navTogglerBtn.addEventListener("click", () => {
+        asideSectionTogglerBtn();
+      });
+      function asideSectionTogglerBtn() {
+        aside.classList.toggle("open");
+        navTogglerBtn.classList.toggle("open");
+        for (let i = 0; i < totalSection; i++) {
+          allSection[i].classList.toggle("open");
+        }
+      }
+    </script>
+  </body>
+</html>
